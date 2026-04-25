@@ -25,7 +25,6 @@ A set of tools for building and operating AI coding agents with more rigor than 
 
 ## Other projects
 
-- [async_paginate](https://github.com/mac-builds-things/async_paginate) — Ruby helper for fetching paginated APIs concurrently with configurable concurrency limits
 - [Personal site](https://macbuildsthings.dev) — projects, writing, and experiments
 
 ---
