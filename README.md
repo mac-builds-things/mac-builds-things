@@ -1,21 +1,33 @@
 # Mac Shea Tichner
 
-I build practical software with Ruby, Rails, TypeScript, and Postgres.
+Full-stack developer focused on AI-native tooling — the infrastructure layer that makes coding agents reliable, auditable, and actually useful in production.
 
-Recently:
-- Built a Rails API for tree traversal using recursive CTEs, Postgres functions, cycle protection, and performance tradeoff analysis.
-- Built a Ruby async pagination helper with concurrency controls and benchmark notes.
-- Building a personal website to collect projects, writing, and technical notes.
+I work across Ruby, TypeScript, and Python. I like backend systems, data modeling, and problems where the right abstraction isn't obvious yet.
 
-I like backend systems, data modeling, developer tools, and turning messy requirements into working products.
+---
 
-## Featured Projects
+## Agent tooling
 
-- [Birds API](https://github.com/mac-builds-things/birds) - Rails/Postgres API for querying hierarchical data with recursive CTEs and cycle-safe traversal.
-- [AsyncPaginate](https://github.com/mac-builds-things/async_paginate) - Ruby helper for fetching paginated API data concurrently with configurable limits.
-- [Personal Website](https://macbuildsthings.dev) - My home for projects, writing, and experiments.
+A set of tools for building and operating AI coding agents with more rigor than vibes:
 
-## Links
+| Repo | What it does |
+|---|---|
+| [claude-code-pr-review-kit](https://github.com/mac-builds-things/claude-code-pr-review-kit) | Structured PR review pipeline — typed diffs, test-gap detection, severity-graded findings |
+| [agent-evals-harness](https://github.com/mac-builds-things/agent-evals-harness) | Repeatable eval harness for coding agents with scenario library and scoring rubric |
+| [agent-run-recorder](https://github.com/mac-builds-things/agent-run-recorder) | Record and replay agent sessions as structured timelines |
+| [prompt-change-control](https://github.com/mac-builds-things/prompt-change-control) | Version-controlled prompts with approval gates and rollback — because prompts are code |
+| [mcp-local-dev-toolbox](https://github.com/mac-builds-things/mcp-local-dev-toolbox) | Local MCP server with safe, explicit filesystem/git/test tools for agents |
+| [repo-onboarding-agent](https://github.com/mac-builds-things/repo-onboarding-agent) | Generates structured onboarding briefs for unfamiliar codebases |
+| [ai-codebase-smoke-tests](https://github.com/mac-builds-things/ai-codebase-smoke-tests) | Playwright smoke tests designed to give agents verifiable evidence before committing |
+| [agent-native-rubygem-template](https://github.com/mac-builds-things/agent-native-rubygem-template) | Polished Ruby gem scaffold with RSpec, RuboCop, and YARD wired up |
 
-- Website: https://macbuildsthings.dev
-- GitHub: https://github.com/mac-builds-things
+---
+
+## Other projects
+
+- [async_paginate](https://github.com/mac-builds-things/async_paginate) — Ruby helper for fetching paginated APIs concurrently with configurable concurrency limits
+- [Personal site](https://macbuildsthings.dev) — projects, writing, and experiments
+
+---
+
+[macbuildsthings.dev](https://macbuildsthings.dev)
